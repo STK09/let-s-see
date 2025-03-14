@@ -168,7 +168,7 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs •", url="https://t.me/Nova_Flix/50")],
+                    [InlineKeyboardButton("• ᴍᴏʀᴇ ᴄʜᴀɴɴᴇʟs •", url="https://t.me/AIO_Backup/217")],
 
     [
                     InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data = "about"),
@@ -307,14 +307,14 @@ async def send_text(client: Bot, message: Message):
                 pass
             total += 1
 
-        status = f"""<b><u>ʙʀᴏᴀᴅᴄᴀꜱᴛ...</u>
+        status = f"""<b><u>🚀 Broadcast Completed</u></b>
 
-Total Users: <code>{total}</code>
-Successful: <code>{successful}</code>
-Blocked Users: <code>{blocked}</code>
-Deleted Accounts: <code>{deleted}</code>
-Unsuccessful: <code>{unsuccessful}</code></b>"""
-
+<b>😍 Total Users :</b> <code>{total}</code>
+<b>😁 Successful :</b> <code>{successful}</code>
+<b>😒 Blocked Users :</b> <code>{blocked}</code>
+<b>😢 Deleted Accounts :</b> <code>{deleted}</code>
+<b>😔 Unsuccessful :</b> <code>{unsuccessful}</code>"""
+        
         return await pls_wait.edit(status)
 
     else:
