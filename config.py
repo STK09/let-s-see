@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7968053738:AAEsFl3iBzZd3aJ2-9kL3VUAmUsx0eCplAg")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7968053738:AAH7iVU5B65rRlv_2gtcYxIZph3bT1YoELs")
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "28450765"))
 #Your API Hash from my.telegram.org
@@ -40,8 +40,8 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002406502895"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/Q7Q9psMs/images-5.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/Q7Q9psMs/images-5.jpg")
+START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/rKnFtChV/images-q-tbn-ANd9-Gc-S49-9iz3k-S7-M7-BFEWo-Tg-Ybr-W6tmw-Czm1-VLO4-F97x-Iz-Z0ot-CTW5-OAa0-Y-s-10.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/rKnFtChV/images-q-tbn-ANd9-Gc-S49-9iz3k-S7-M7-BFEWo-Tg-Ybr-W6tmw-Czm1-VLO4-F97x-Iz-Z0ot-CTW5-OAa0-Y-s-10.jpg")
 
 # Turn this feature on or off using True or False put value inside  ""
 # TRUE for yes FALSE if no 
